@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5c91598c660f3b947be8e5bb12b86f0d, type: 3}
+  m_Name: A3. Big Dragon
+  m_EditorClassIdentifier: 
+  storyText: "A big dragon suddenly blocks your path, it is agressive!\r\n\r\nFight
+    or flee!?:\r\n\r\n1. Fight!\r\n\r\n2. Flee!"
+  nextStates:
+  - {fileID: 11400000, guid: 2d9f6598318304d4da3bd4b134e3fbda, type: 2}
+  - {fileID: 11400000, guid: 167385c12dd3f20459fae003b16fe710, type: 2}
